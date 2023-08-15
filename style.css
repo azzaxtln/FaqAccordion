@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    display: grid;
+    place-items: center;
+    background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-size: 12px;
+}
+
+main{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    position: relative;
+    margin-top: 110px;
+}
+
+.illus{
+    background-image: url(images/illustration-woman-online-mobile.svg);
+    background-size: auto;
+    width: 300px;
+    height: 170px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: -21%;
+    
+}
+
+.shadow{
+    background-image: url(images/bg-pattern-mobile.svg);
+    background-size: auto;
+    width: 300px;
+    height: 100px;
+    position: relative;
+    top: -8%;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+
+h1{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    justify-content: space-between;
+}
+
+a > img{
+    width: 8px;
+    height: 8px;
+    
+}
+
+a:hover{
+    color: red;
+}
+
+.rotate{
+    transform: rotate(180deg);
+
+}
+
+li{
+    list-style: none;
+}
+
+p {
+    display: none;
+    color: hsl(240, 13%, 53%);
+    padding-top: 15px;
+    max-width: 250px;
+    padding-right:  11px;
+}
+
+.visible {
+    display: block;
+}
+
+.content{
+        background-color: white;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        width: 340px;
+        border-radius: 20px;
+        
+}
+
+ul{
+    width: 100%;
+}
+
+.stn{
+    font-weight: 700;
+}
+
+hr{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-color: hsla(240, 4%, 91%, 0.411);
+}
+
+.ls{
+    margin-bottom: 30px;
+}
